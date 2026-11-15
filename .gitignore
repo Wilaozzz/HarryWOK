@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+android/.gradle/
+ios/Pods/
+
+# Builds
+build/
+dist/
+out/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Configuración local
+.vscode/
+.idea/
